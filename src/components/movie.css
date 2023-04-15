@@ -1,0 +1,26 @@
+*{
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+
+}
+.card-container{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    width: min-content;
+    height: max-content;
+    cursor: pointer;
+    /* flex-wrap:nowrap; */
+}
+.movie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+    flex-wrap: wrap;
+}
